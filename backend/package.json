@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend API",
+  "main": "index.js",
+  "repository": "https://github.com/lgx99504/my_forum.git",
+  "author": "Liu Guang Xin",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "gen-test-data": "node db_seed.js",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "faker": "^5.5.3",
+    "mongodb": "^3.6.6",
+    "mongoose": "^5.12.7",
+    "mongoose-aggregate-paginate-v2": "^1.0.42"
+  }
+}

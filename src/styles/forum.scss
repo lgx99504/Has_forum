@@ -1,0 +1,265 @@
+$theme-color:rgb(0, 184, 190);
+
+.welcome-title
+    {
+        color: $theme-color;
+        margin: 0px;
+    }
+
+.form-control:focus
+    {
+        box-shadow: none !important;
+    }
+
+.login-card
+    {
+        position: absolute;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%,-50%);
+    }
+
+.log-in
+    {
+        position: relative;
+        margin-top: 20px;
+    }
+
+#account-input
+    {
+        width: 300px;
+        height: 40px;
+        border: 0px;
+        margin: 10px 0 10px 0;
+        outline: none;
+        font-size: 15px;
+        border-radius: 0px;
+        border-bottom: gray solid 1px;
+    }
+
+#password-input
+    {
+        width: 300px;
+        height: 40px;
+        border: 0px;
+        margin: 10px 0 10px 0;
+        outline: none;
+        font-size: 15px;
+        border-radius: 0px;
+        border-bottom: gray solid 1px;
+    }
+
+.login-label
+    {
+        color: $theme-color;
+        font-size: 30px;
+    }
+
+#submit
+    {
+        width: 90px;
+        height: 30px;
+        margin-top: 15px;
+        margin-right: 120px;
+        background-color: $theme-color;
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 0px;
+    }
+
+.warn-info
+    {
+        color: red;
+    }
+
+.tips
+    {
+        color: gray;
+        font-size: 10px;
+    }
+    
+#goToSignIn
+    {
+        color: $theme-color;
+        text-decoration: none;
+    }
+
+#head-nav
+    {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+.forum-icon
+    {
+        float: left;
+        i {
+            color: $theme-color;
+        }
+        h1 {
+            float: right;
+            color: $theme-color;
+            font-family: Fantasy;
+        }
+    }
+
+#search-card
+    {
+        background-color: $theme-color;
+        display: block;
+        height: 180px;
+        padding-top: 70px;
+        margin-top: 30px;
+    }
+
+#search-btn
+    {
+        color: black;
+        background-color: white;
+        width: 100px;
+        border: none;
+        box-shadow: none;
+    }
+
+#search-input
+    {
+        border: none;
+        box-shadow: none;
+        background-color: white;
+        color: black;
+    }
+
+.nav-link
+    {
+        color: white;
+    }
+
+.nav-link:hover
+    {
+        text-decoration: underline!important;
+        color: white;
+    }
+
+.categories_title
+    {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        color: $theme-color;
+    }
+
+.category-list
+    {
+        .list-group {
+            .list-group-item {
+                    border: none !important;
+                }
+        }
+    }
+
+.rooter-info
+    {
+        color: gray;
+        text-align: center;
+    }
+
+.category-icon
+    {
+        display: -webkit-box;
+        -webkit-box-pack:center;
+        -webkit-box-orient:vertical;
+        div {
+            padding: 15px;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+        i {
+            color: white;
+        }
+    }
+
+#bread-nav
+    {
+        margin-top: 20px;
+        .breadcrumb
+        {
+            background-color: transparent;
+        }
+    }
+
+.user-img
+    {
+        display: -webkit-box;
+        -webkit-box-pack:center;
+        -webkit-box-orient:vertical;
+        div {
+            padding: 15px;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+    }
+
+.topic-card
+    {   
+        margin-top: 40px;
+        border: 3px $theme-color solid;
+        border-radius: 10px;
+        div {
+            margin: {
+                top: 10px;
+                bottom: 10px;
+            }
+        }
+        #topic-title
+        {
+            border-bottom: $theme-color 3px solid;
+        }
+        #topic-create-at
+        {
+            margin-bottom: 80px;
+        }
+    }
+
+.create-category
+    {
+        background-color: $theme-color;
+        color: white;
+        border: none;
+        width: 80px;
+        height: 40px;
+        margin-left: 10px;
+    }
+
+.reply-card-title
+    {
+        color: $theme-color;
+        margin-top: 50px;
+    }
+
+.write-reply-card
+    {
+        border: $theme-color 3px solid;
+        border-radius: 10px;
+        margin-top: 80px;
+        padding: 20px;
+        button {
+            background-color: $theme-color;
+            color: white;
+            margin-top: 20px;
+        }
+        input {
+            width: 90%;
+        }
+    }
+
+.user-info
+    {
+        background-color: $theme-color !important;
+        border: none !important;
+        border-radius: 5px;
+        color: white;
+        margin-right: 10px;
+        box-shadow: none;
+    }
